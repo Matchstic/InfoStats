@@ -10,4 +10,15 @@
 
 @interface ISMain : NSObject
 
++(void)launchRamTimer;
++(void)cancelRamTimer;
++(void)launchBatteryTimer;
++(void)cancelBatteryTimer;
+
++(void)ramChanged;
++(void)batteryLevelChanged;
++(void)batteryStateChanged:(NSNotification *)notification;
+
++(void)updateAfterSleep;
+
 @end

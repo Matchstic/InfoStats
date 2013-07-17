@@ -16,104 +16,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>isStaticText</key>
-			<true/>
 			<key>label</key>
-			<string>Text and Secure Cells</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSEditTextCell</string>
-			<key>default</key>
-			<string></string>
-			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
-			<key>key</key>
-			<string>EditTextCell1</string>
-			<key>label</key>
-			<string>Text</string>
-			<key>placeholder</key>
-			<string>Any Text Here</string>
-			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSecureEditTextCell</string>
-			<key>default</key>
-			<string></string>
-			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
-			<key>key</key>
-			<string>SecureEditTextCell2</string>
-			<key>label</key>
-			<string>Secure</string>
-			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>footerText</key>
-			<string>Place text here to provide additional information about the cells above.</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>isStaticText</key>
-			<true/>
-			<key>label</key>
-			<string>Numeric Cells</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSEditTextCell</string>
-			<key>default</key>
-			<string></string>
-			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
-			<key>key</key>
-			<string>EditTextCell3</string>
-			<key>keyboard</key>
-			<string>phone</string>
-			<key>label</key>
-			<string>Phone</string>
-			<key>placeholder</key>
-			<string>Phone Number</string>
-			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSEditTextCell</string>
-			<key>default</key>
-			<string></string>
-			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
-			<key>key</key>
-			<string>EditTextCel4</string>
-			<key>keyboard</key>
-			<string>numbers</string>
-			<key>label</key>
-			<string>Numeric</string>
-			<key>placeholder</key>
-			<string>Numbers</string>
-			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>footerText</key>
-			<string>Place text here to provide additional information about the cells above.</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>isStaticText</key>
-			<true/>
-			<key>label</key>
-			<string>Switch and Slider Cells</string>
+			<string>Battery Information</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -121,86 +25,89 @@
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
+			<string>com.matchstic.infostats</string>
 			<key>key</key>
-			<string>SwitchCell5</string>
+			<string>batteryEnabled</string>
 			<key>label</key>
-			<string>Switch</string>
+			<string>Enabled</string>
 			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
+			<string>com.matchstic.infostats/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTextViewCell</string>
+			<key>label</key>
+			<string>Time Interval (in seconds)</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSSliderCell</string>
+			<key>PostNotification</key>
+			<string>com.matchstic.infostats/settingschanged</string>
 			<key>default</key>
-			<real>50</real>
+			<integer>30</integer>
 			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
+			<string>com.matchstic.infostats</string>
 			<key>key</key>
-			<string>SliderCell6</string>
-			<key>min</key>
-			<real>1</real>
+			<string>batteryInterval</string>
 			<key>max</key>
-			<real>100</real>
+			<integer>120</integer>
+			<key>min</key>
+			<integer>1</integer>
 			<key>showValue</key>
 			<true/>
-			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>footerText</key>
-			<string>Place text here to provide additional information about the cells above.</string>
+			<key>label</key>
+			<string>RAM Information</string>
 		</dict>
 		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>isStaticText</key>
-			<true/>
-			<key>label</key>
-			<string>List Cell</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSLinkListCell</string>
-			<key>defaults</key>
-			<string>com.matchstic.InfoStats</string>
-			<key>key</key>
-			<string>LinkListCell7</string>
-			<key>label</key>
-			<string>List</string>
-			<key>detail</key>
-			<string>PSListItemsController</string>
-			<key>validTitles</key>
-			<array>
-				<string>Item 1</string>
-				<string>Item 2</string>
-				<string>Item 3</string>
-			</array>
-			<key>validValues</key>
-			<array>
-				<integer>1</integer>
-				<integer>2</integer>
-				<integer>3</integer>
-			</array>
+			<string>PSSwitchCell</string>
 			<key>default</key>
-			<integer>1</integer>
+			<true/>
+			<key>defaults</key>
+			<string>com.matchstic.infostats</string>
+			<key>key</key>
+			<string>ramEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
 			<key>PostNotification</key>
-			<string>com.matchstic.InfoStats-preferencesChanged</string>
+			<string>com.matchstic.infostats/settingschanged</string>
 		</dict>
-
 		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>isStaticText</key>
+			<string>PSTextViewCell</string>
+			<key>label</key>
+			<string>Time Interval (in seconds)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>PostNotification</key>
+			<string>com.matchstic.infostats/settingschanged</string>
+			<key>default</key>
+			<integer>10</integer>
+			<key>defaults</key>
+			<string>com.matchstic.infostats</string>
+			<key>key</key>
+			<string>ramInterval</string>
+			<key>max</key>
+			<integer>120</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>showValue</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>© 2013 __MyCompanyName__</string>
+			<string>InfoStats © Matchstic 2013
+
+This project was born from a collaboration with The.Drifter</string>
 		</dict>
 	</array>
 	<key>title</key>

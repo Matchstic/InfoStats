@@ -1,17 +1,11 @@
 Package: com.matchstic.InfoStats
 Name: InfoStats
-Version: 0.1-1
-Description: 
+Version: 1.0.2
+Description: Device statistics for widgets
 Section: System
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: 
-Replaces: 
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: com.matchstic.BatteryStats, com.matchstic.RAMStats, com.myrepospace.kohidevice.batterystats
 Priority: optional
 Architecture: iphoneos-arm
-Author: Matt Clarke
-dev: 
-Homepage: 
-Depiction: 
-Maintainer: 
-Icon: 
-
+Author: Matt Clarke <mclarke0805@gmail.com>
+Icon: file:///Library/PreferenceLoader/Preferences/InfoStatsIcon@2x.png

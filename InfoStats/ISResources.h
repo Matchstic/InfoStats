@@ -10,4 +10,13 @@
 
 @interface ISResources : NSObject
 
++(BOOL)ramEnabled;
++(double)ramInterval;
+
++(BOOL)batteryEnabled;
++(double)batteryInterval;
+
++(void)reloadSettings;
++(void)loadSettings;
+
 @end

@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		C9BAB7561789D2C50055C9B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BAB7551789D2C50055C9B9 /* Foundation.framework */; };
 		C9BAB7671789D2C50055C9B9 /* InfoStats.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB7661789D2C50055C9B9 /* InfoStats.mm */; };
+		C9BAB7711789D2F80055C9B9 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BAB7701789D2F80055C9B9 /* libsubstrate.dylib */; };
+		C9BAB7741789D42C0055C9B9 /* ISResources.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BAB7721789D42C0055C9B9 /* ISResources.h */; };
+		C9BAB7751789D42C0055C9B9 /* ISResources.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB7731789D42C0055C9B9 /* ISResources.m */; };
+		C9BAB7781789DC6D0055C9B9 /* ISMain.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BAB7761789DC6D0055C9B9 /* ISMain.h */; };
+		C9BAB7791789DC6D0055C9B9 /* ISMain.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BAB7771789DC6D0055C9B9 /* ISMain.m */; };
+		C9BAB77B1789E3910055C9B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BAB77A1789E3910055C9B9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9BAB7521789D2C50055C9B9 /* InfoStats.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = InfoStats.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BAB7551789D2C50055C9B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C9BAB75A1789D2C50055C9B9 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		C9BAB75B1789D2C50055C9B9 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		C9BAB75D1789D2C50055C9B9 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		C9BAB7611789D2C50055C9B9 /* InfoStats.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoStats.plist; path = Package/Library/PreferenceLoader/Preferences/InfoStats.plist; sourceTree = "<group>"; };
 		C9BAB7621789D2C50055C9B9 /* InfoStatsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InfoStatsIcon.png; path = Package/Library/PreferenceLoader/Preferences/InfoStatsIcon.png; sourceTree = "<group>"; };
 		C9BAB7631789D2C50055C9B9 /* InfoStatsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InfoStatsIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/InfoStatsIcon@2x.png"; sourceTree = "<group>"; };
 		C9BAB7641789D2C50055C9B9 /* InfoStats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfoStats-Prefix.pch"; sourceTree = "<group>"; };
-		C9BAB7651789D2C50055C9B9 /* InfoStats.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = InfoStats.xm; sourceTree = "<group>"; };
+		C9BAB7651789D2C50055C9B9 /* InfoStats.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InfoStats.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C9BAB7661789D2C50055C9B9 /* InfoStats.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InfoStats.mm; sourceTree = "<group>"; };
 		C9BAB76A1789D2C50055C9B9 /* InfoStats.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoStats.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/InfoStats.plist; sourceTree = "<group>"; };
+		C9BAB7701789D2F80055C9B9 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		C9BAB7721789D42C0055C9B9 /* ISResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISResources.h; sourceTree = "<group>"; };
+		C9BAB7731789D42C0055C9B9 /* ISResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISResources.m; sourceTree = "<group>"; };
+		C9BAB7761789DC6D0055C9B9 /* ISMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMain.h; sourceTree = "<group>"; };
+		C9BAB7771789DC6D0055C9B9 /* ISMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMain.m; sourceTree = "<group>"; };
+		C9BAB77A1789E3910055C9B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9BAB77E1789E6A00055C9B9 /* InfoStats.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = InfoStats.bundle; sourceTree = "<group>"; };
+		C9C2CD1C179339A700132C11 /* From control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "From control"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BAB77B1789E3910055C9B9 /* UIKit.framework in Frameworks */,
+				C9BAB7711789D2F80055C9B9 /* libsubstrate.dylib in Frameworks */,
 				C9BAB7561789D2C50055C9B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +56,8 @@
 		C9BAB7471789D2C50055C9B9 = {
 			isa = PBXGroup;
 			children = (
+				C9BAB77A1789E3910055C9B9 /* UIKit.framework */,
+				C9BAB7701789D2F80055C9B9 /* libsubstrate.dylib */,
 				C9BAB7571789D2C50055C9B9 /* InfoStats */,
 				C9BAB7541789D2C50055C9B9 /* Frameworks */,
 				C9BAB7531789D2C50055C9B9 /* Products */,
@@ -67,6 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				C9BAB7651789D2C50055C9B9 /* InfoStats.xm */,
+				C9BAB7761789DC6D0055C9B9 /* ISMain.h */,
+				C9BAB7771789DC6D0055C9B9 /* ISMain.m */,
+				C9BAB7721789D42C0055C9B9 /* ISResources.h */,
+				C9BAB7731789D42C0055C9B9 /* ISResources.m */,
 				C9BAB7661789D2C50055C9B9 /* InfoStats.mm */,
 				C9BAB7581789D2C50055C9B9 /* Package */,
 				C9BAB75C1789D2C50055C9B9 /* Supporting Files */,
@@ -86,7 +107,6 @@
 		C9BAB7591789D2C50055C9B9 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
-				C9BAB75A1789D2C50055C9B9 /* control.txt */,
 				C9BAB75B1789D2C50055C9B9 /* control */,
 			);
 			name = DEBIAN;
@@ -97,6 +117,7 @@
 			children = (
 				C9BAB75D1789D2C50055C9B9 /* PackageVersion.plist */,
 				C9BAB7641789D2C50055C9B9 /* InfoStats-Prefix.pch */,
+				C9C2CD1C179339A700132C11 /* From control */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -104,6 +125,7 @@
 		C9BAB75E1789D2C50055C9B9 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				C9BAB77C1789E6A00055C9B9 /* Application Support */,
 				C9BAB75F1789D2C50055C9B9 /* PreferenceLoader */,
 				C9BAB7681789D2C50055C9B9 /* MobileSubstrate */,
 			);
@@ -144,6 +166,23 @@
 			name = DynamicLibraries;
 			sourceTree = "<group>";
 		};
+		C9BAB77C1789E6A00055C9B9 /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB77D1789E6A00055C9B9 /* Stats */,
+			);
+			name = "Application Support";
+			path = "Package/Library/Application Support";
+			sourceTree = "<group>";
+		};
+		C9BAB77D1789E6A00055C9B9 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAB77E1789E6A00055C9B9 /* InfoStats.bundle */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +190,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BAB7741789D42C0055C9B9 /* ISResources.h in Headers */,
+				C9BAB7781789DC6D0055C9B9 /* ISMain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BAB7671789D2C50055C9B9 /* InfoStats.mm in Sources */,
+				C9BAB7751789D42C0055C9B9 /* ISResources.m in Sources */,
+				C9BAB7791789DC6D0055C9B9 /* ISMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +306,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -287,7 +330,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +348,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InfoStats/InfoStats-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -325,6 +372,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InfoStats/InfoStats-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -355,6 +406,7 @@
 				C9BAB76F1789D2C50055C9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

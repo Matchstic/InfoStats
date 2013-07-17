@@ -1,0 +1,13 @@
+Free: nil
+Used: nil
+Total usable: nil
+Total physical: nil
+
+Info: All values are in MB. These statistics are calculated to be as close as possible to those provided by SBSettings. The "free" statistic is the total of the free and inactive RAM, as iOS treats the inactive RAM as free. The "used" statistic is the total of the active and wired RAM. The "usable" RAM statistic is, I think, the total RAM available to the system after allocation to the GPU (at any rate, it's the output of the sysctl call to hw.usermem), and the "physical" total is the total amount of RAM on the device.
+
+Enjoy!
+
+
+
+
+Built by Matt Clarke (Matchstic), source code available at https://github.com/Matchstic/RAMStats
