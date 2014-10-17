@@ -1,0 +1,11 @@
+Device temp
+Time remaining on battery
+App notifications
+Calendar events
+Alarms
+Reminders
+Rotation lock
+Mute enabled
+Usage times
+VPN connection
+Game centre score (?)

@@ -17,16 +17,25 @@
 
 %hook SBAwayController
 
-// Works on 7.0, 6.0+ :)
+// Works on 6.0 - 6.1.5
 -(void)undimScreen:(BOOL)arg1 {
-    %orig;
     [ISMain updateAfterSleep];
+    %orig;
 }
 
 // iOS 5.0+ compatibilty
 -(void)undimScreen {
-    %orig;
     [ISMain updateAfterSleep];
+    %orig;
+}
+
+%end
+
+%hook SBLockScreenViewController
+
+-(void)_handleDisplayTurnedOn {
+    [ISMain updateAfterSleep];
+    %orig;
 }
 
 %end
